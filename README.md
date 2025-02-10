@@ -3,6 +3,7 @@ OCR and automatic linking
 
 # How to Use
 
+0.5. Run (source .envrc) your env file containing the following variables: GOOGLE_API_KEY, LOCAL_PATH_FOLDER, and SAVE_PATH.
 1. Organize your folder with the PDFs you want to process in a folder named `pdfs`. Other folders will be ignored.
 2. Keep the `pdfs` folder in the folder hierarchy; everything else does not matter.
 3. Run the script. It will place all the `.md` files in the `automation` folder on your desktop.
