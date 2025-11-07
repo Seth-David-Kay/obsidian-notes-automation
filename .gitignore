@@ -1,3 +1,5 @@
 .envrc
 pdfs
 .DS_Store
+/Senior
+*.png

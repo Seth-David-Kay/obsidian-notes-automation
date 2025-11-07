@@ -17,3 +17,8 @@ OCR and automatic linking
 
 # Notes
 - workflow (basic): put pdfs into folders corresponding to what classes they are, output is output folders for each class that include what to add to the overview, what notes to paste into the overarching folder, and what pdfs to paste into the pdf section. rename pdfs myself when pasting them in, and take the file names as input (can be a cli input if I want to try renaming them, but this is mvp)
+- Scan as close to the paper as possible while leaving some room on the edges to crop correclty. Just remember: the closer you are to the paper, the more details there are
+- IMPORTANT FOR SCANNING: scan not on a dark material, can allow for bleeding through the image, scan in proper light (an even and bright to medium light level) on either hardwood or something lighter in color and not too different from the paper, hardwood works wonderully
+- After sourcing .envrc, run with python3 automateObsidianNotes.py <env folder>
+	- If not in .envrc, run with python3 automateObsidianNotes.py <env folder> <save path>
+- Bug fix for the future and important user note: folder names in the env folder must only be one word for now
