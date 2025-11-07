@@ -21,4 +21,4 @@ OCR and automatic linking
 - IMPORTANT FOR SCANNING: scan not on a dark material, can allow for bleeding through the image, scan in proper light (an even and bright to medium light level) on either hardwood or something lighter in color and not too different from the paper, hardwood works wonderully
 - After sourcing .envrc, run with python3 automateObsidianNotes.py <env folder>
 	- If not in .envrc, run with python3 automateObsidianNotes.py <env folder> <save path>
-- Bug fix for the future and important user note: folder names in the env folder must only be one word for now
+- Bug fix for the future and important user note: folder names in the env folder must only be one word for now (I could be wrong after some testing)

@@ -8,7 +8,6 @@ import os
 import sys
 
 def generate_full_reponse_gemma(prompt):
-    return "hi"
     r = requests.post('http://0.0.0.0:11434/api/generate',
                       json={
                           'model': "gemma:2b",
@@ -28,7 +27,6 @@ def generate_full_reponse_gemma(prompt):
     return full_response
 
 def get_text_from_image(prompt, images):
-    return "hi"
     GOOGLE_API_KEY=os.environ['GOOGLE_API_KEY']
     genai.configure(api_key=GOOGLE_API_KEY)
     model = genai.GenerativeModel('gemini-2.5-pro')
