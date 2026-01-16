@@ -22,3 +22,6 @@ OCR and automatic linking
 - After sourcing .envrc, run with python3 automateObsidianNotes.py <env folder>
 	- If not in .envrc, run with python3 automateObsidianNotes.py <env folder> <save path>
 - Bug fix for the future and important user note: folder names in the env folder must only be one word for now (I could be wrong after some testing)
+
+*IMPORTANT ADDITION*
+- Sorting overview dates by least -> greatest so I can copy and paste without moving dates around into the overview
