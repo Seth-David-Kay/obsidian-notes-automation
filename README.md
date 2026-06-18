@@ -24,4 +24,4 @@ OCR and automatic linking
 - Bug fix for the future and important user note: folder names in the env folder must only be one word for now (I could be wrong after some testing)
 
 *IMPORTANT ADDITION*
-- Sorting overview dates by least -> greatest so I can copy and paste without moving dates around into the overview
+- Sorting overview dates by least -> greatest so I can copy and paste the overview without moving dates around into the overview

@@ -29,7 +29,7 @@ def generate_full_reponse_gemma(prompt):
 def get_text_from_image(prompt, images):
     GOOGLE_API_KEY=os.environ['GOOGLE_API_KEY']
     genai.configure(api_key=GOOGLE_API_KEY)
-    model = genai.GenerativeModel('gemini-2.5-flash')
+    model = genai.GenerativeModel('gemini-3.1-flash-lite')
 
     # Give it the prompt + the list containing all properly formatted images
     response = model.generate_content([prompt] + images, stream=False)
