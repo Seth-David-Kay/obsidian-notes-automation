@@ -1,7 +1,37 @@
+<div align="center">
+
 # obsidian-notes-automation
+
 OCR and automatic linking
 
-# How to Use
+</div>
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Notes](#notes)
+- [License](#license)
+
+---
+
+## Overview
+
+Custom OCR and automatic scanning, retrieval, parsing, file naming, OCR conversion, markdown summary generation, and organization for ease of use importing to obsidian.
+
+## Installation
+
+### Steps
+
+Clone the repository
+
+Create a .envrc that defines export GOOGLE_API_KEY and export SAVE_PATH
+
+## Usage
 
 1. Run (source .envrc) your env file containing the following variables: GOOGLE_API_KEY, LOCAL_PATH_FOLDER, and SAVE_PATH.
 1. Organize your folder with the PDFs you want to process in a folder named `pdfs`. Other folders will be ignored.
@@ -13,9 +43,11 @@ OCR and automatic linking
 6. Double-check the payment model for the Gemini API key. As of 5-11-2024, there is no payment required.
 7. Verify that `.DS_Store` has been removed from the `pdfs` folder before running the script. -> should be fixed now
 
-# Personal Note: use python3 command not python when running
+Personal Note: use python3 command not python when running
 
-# Notes
+## Roadmap
+
+## Notes
 - workflow (basic): put pdfs into folders corresponding to what classes they are, output is output folders for each class that include what to add to the overview, what notes to paste into the overarching folder, and what pdfs to paste into the pdf section. rename pdfs myself when pasting them in, and take the file names as input (can be a cli input if I want to try renaming them, but this is mvp)
 - Scan as close to the paper as possible while leaving some room on the edges to crop correclty. Just remember: the closer you are to the paper, the more details there are
 - IMPORTANT FOR SCANNING: scan not on a dark material, can allow for bleeding through the image, scan in proper light (an even and bright to medium light level) on either hardwood or something lighter in color and not too different from the paper, hardwood works wonderully
@@ -25,3 +57,7 @@ OCR and automatic linking
 
 *IMPORTANT ADDITION*
 - Sorting overview dates by least -> greatest so I can copy and paste the overview without moving dates around into the overview
+
+## License
+
+Distributed under the GNU License. See [`LICENSE`](LICENSE) for details.
